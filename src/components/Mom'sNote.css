@@ -180,7 +180,7 @@
 
     .girl{
         width: 120px;
-        top: 78%;
+        top: 80%;
         right: 2%;
     }
 
@@ -188,6 +188,7 @@
         height: 150px;
         top: 75%;
         right: 2%;
+        width: 150px;
     }
 
     .mom{
