@@ -174,3 +174,69 @@
         left: 20px;
     }
 }
+/* ================= TABLET ================= */
+
+@media screen and (max-width: 768px){
+
+    .girl{
+        width: 120px;
+        top: 78%;
+        right: 2%;
+    }
+
+    .dad{
+        height: 150px;
+        top: 75%;
+        right: 2%;
+    }
+
+    .mom{
+        height: 150px;
+        top: 78%;
+        right: 5%;
+    }
+
+    .star{
+        height: 60px;
+    }
+
+    .heart{
+        height: 60px;
+    }
+}
+
+/* ================= MOBILE ================= */
+
+@media screen and (max-width: 480px){
+
+    .girl{
+        width: 90px;
+        top: 82%;
+        right: 2%;
+        border-radius: 12px;
+    }
+
+    .dad{
+        height: 100px;
+        top: 80%;
+        right: 2%;
+        border-radius: 12px;
+    }
+
+    .mom{
+        height: 100px;
+        top: 82%;
+        right: 4%;
+        border-radius: 12px;
+    }
+
+    .star{
+        height: 45px;
+        border-radius: 50%;
+    }
+
+    .heart{
+        height: 45px;
+        border-radius: 15px;
+    }
+}
