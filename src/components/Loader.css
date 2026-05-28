@@ -49,3 +49,16 @@
         transform: translateY(-20px);
     }
 }
+@media screen and (max-width: 768px){
+
+    .brand-name span{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .brand-name span{
+        font-size: 1.8rem;
+    }
+}

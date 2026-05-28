@@ -65,3 +65,50 @@
 .DadsNote:hover{
     background-color: white;
 }
+
+
+@media screen and (max-width: 768px){
+
+    .note-container{
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .note-paper{
+        width: 90%;
+        min-height: auto;
+
+        padding: 40px 25px;
+    }
+
+    .note-paper p{
+        font-size: 22px;
+        line-height: 30px;
+
+        margin-left: 10px;
+    }
+
+    .DadsNote{
+        width: 90%;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+
+    .note-paper{
+        padding: 30px 18px;
+    }
+
+    .note-paper p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .note-paper::before{
+        left: 20px;
+    }
+}

@@ -67,3 +67,46 @@ body{
 .wishes button:hover{
     background-color: white;
 }
+
+
+@media screen and (max-width: 768px){
+
+    .hbd,
+    .hbd-2{
+        width: 250px;
+        height: 250px;
+    }
+
+    .wishes h3{
+        font-size: 2rem;
+        padding: 0 20px;
+    }
+
+    .wishes button{
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+
+    .hbd,
+    .hbd-2{
+        width: 160px;
+        height: 160px;
+    }
+
+    .wishes h3{
+        font-size: 1.5rem;
+    }
+
+    .wishes{
+        gap: 15px;
+    }
+
+    .wishes button{
+        padding: 10px 18px;
+        font-size: 0.8rem;
+    }
+}
