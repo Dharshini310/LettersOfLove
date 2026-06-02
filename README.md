@@ -57,16 +57,12 @@ Letters-Of-Love/
 │
 ├── public/
 ├── src/
-│   ├── Components/
-│   ├── Pages/
-│   ├── Assets/
-│   ├── Videos/
-│   ├── Animations/
+│   ├── Components/│   
 │   ├── App.jsx
 │   └── main.jsx
 │
 ├── package.json
-└── README.md
+
 ```
 
 ---
