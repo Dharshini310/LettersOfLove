@@ -1,5 +1,5 @@
 body{
-    background-color: navy;
+    background-color: #F2F9FF;
     margin: 0;
 }
 .welcome-container{
@@ -47,7 +47,7 @@ body{
     align-items: center;
     gap: 20px;
 
-    color: rgb(235, 136, 151);
+    color:  #4A3B42;
     text-align: center;
 }
 
@@ -61,11 +61,13 @@ body{
     border-radius: 10px;
     cursor: pointer;
     font-size: 1rem;
-    background-color: beige;
-    color: rgb(143, 47, 79);
+    background-color: #E195AB;
+    color: white;
 }
 .wishes button:hover{
     background-color: white;
+    color: #E195AB;
+    border: 2px solid #E195AB;
 }
 
 

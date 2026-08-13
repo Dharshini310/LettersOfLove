@@ -21,7 +21,7 @@ function Welcome() {
       />
 
       <div className='wishes'>
-        <h3>Happy Birthday Vinny!</h3>
+        <h3>Happy Birthday Chandu!</h3>
         <button onClick={handleclick}>Open With Smile</button>
       </div>
         <DotLottieReact
