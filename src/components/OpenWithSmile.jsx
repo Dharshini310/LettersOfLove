@@ -20,7 +20,7 @@ function OpenWithSmile() {
       />
        <h1>Hey Chandu...........</h1><br/>
        <h3>Someone special has a message for you ❤️</h3><br/><br/>
-       <button onClick={handleclick}>Click Here</button>
+       <button onClick={handleclick}>Click Here,My Love 💗</button>
         <DotLottieReact
                src={bg}
                loop 

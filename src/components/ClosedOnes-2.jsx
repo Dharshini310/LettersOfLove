@@ -29,7 +29,7 @@ function ClosedOnes2() {
                 ) : (
                     <div>
                     <div className="video-container1">
-                        <button className='DadNote' onClick={handleSubmit}>A Small Note from Your Dad ❤️</button>
+                        <button className='DadNote' onClick={handleSubmit}>Press Play, My Love 🎬</button>
                         <video
    src={cl_2}
    controls

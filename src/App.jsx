@@ -17,6 +17,7 @@ import ClosedOnes2 from './components/ClosedOnes-2'
 import ClosedOnes3 from './components/ClosedOnes-3'
 import ClosedOnes4 from './components/ClosedOnes-4'
 import ClosedOnes5 from './components/ClosesOnes-5'
+import FinalBirthdayVideo from './components/FinalBirthdayVideo'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path='/closed-ones-3' element={<ClosedOnes3/>}/>
         <Route path='closed-ones-4' element={<ClosedOnes4/>}/>
         <Route path='/closed-ones-5' element={<ClosedOnes5/>}/>
+        <Route path='/final-birthday-video' element={<FinalBirthdayVideo/>}/>
       </Routes>
     </BrowserRouter>
   )

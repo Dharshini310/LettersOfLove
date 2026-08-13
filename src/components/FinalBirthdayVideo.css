@@ -1,0 +1,429 @@
+.final-birthday-section {
+  min-height: 100vh;
+  width: 100%;
+  background: #f2f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --------------------------------
+   INTRO SCREEN
+-------------------------------- */
+
+.birthday-intro {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  padding: 60px 30px;
+  background: #fff5d7;
+  border-radius: 30px;
+  box-shadow: 0 15px 45px rgba(74, 59, 66, 0.12);
+  animation: fadeIn 1s ease;
+}
+
+.intro-heart {
+  font-size: 55px;
+  color: #e195ab;
+  margin-bottom: 20px;
+  animation: heartbeat 1.8s infinite;
+}
+
+.small-intro-text {
+  color: #806b73;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.birthday-intro h1 {
+  color: #6b3f50;
+  font-family: Georgia, serif;
+  font-size: 48px;
+  line-height: 1.25;
+  margin: 10px 0 20px;
+}
+
+.birthday-intro h1 span {
+  color: #e195ab;
+}
+
+.intro-description {
+  color: #806b73;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* --------------------------------
+   BUTTON
+-------------------------------- */
+
+.birthday-surprise-button {
+  border: none;
+  outline: none;
+  background: #e195ab;
+  color: white;
+  padding: 16px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(225, 149, 171, 0.3);
+}
+
+.birthday-surprise-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(225, 149, 171, 0.4);
+}
+
+.birthday-surprise-button:active {
+  transform: scale(0.97);
+}
+
+/* --------------------------------
+   VIDEO SECTION
+-------------------------------- */
+
+.birthday-video-container {
+  width: 100%;
+  max-width: 850px;
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.video-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.video-heading h2 {
+  color: #6b3f50;
+  font-family: Georgia, serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+.video-heading span {
+  font-size: 25px;
+}
+
+.video-wrapper {
+  width: 100%;
+  background: #fff5d7;
+  padding: 12px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 40px rgba(74, 59, 66, 0.15);
+}
+
+.birthday-video {
+  width: 100%;
+  max-height: 75vh;
+  display: block;
+  border-radius: 18px;
+  object-fit: contain;
+}
+
+.video-hint {
+  color: #806b73;
+  margin-top: 18px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* --------------------------------
+   FINAL MESSAGE
+-------------------------------- */
+
+.birthday-final-message {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  text-align: center;
+  padding: 65px 40px;
+  background: #fff5d7;
+  border-radius: 35px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 55px rgba(74, 59, 66, 0.13);
+  animation: finalReveal 1.2s ease;
+}
+
+.final-sparkle {
+  font-size: 35px;
+  color: #e195ab;
+  margin-bottom: 15px;
+  animation: sparkle 2s infinite;
+}
+
+.final-small-text {
+  color: #806b73;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-bottom: 18px;
+}
+
+.birthday-final-message h1 {
+  color: #6b3f50;
+  font-family: Georgia, serif;
+  font-size: 48px;
+  line-height: 1.3;
+  margin: 0 0 25px;
+}
+
+.birthday-final-message h1 span {
+  color: #e195ab;
+}
+
+/* --------------------------------
+   DIVIDER
+-------------------------------- */
+
+.message-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 30px;
+}
+
+.message-divider span {
+  color: #e195ab;
+  font-size: 18px;
+}
+
+/* --------------------------------
+   MESSAGE
+-------------------------------- */
+
+.birthday-message {
+  color: #4a3b42;
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.birthday-message strong {
+  color: #6b3f50;
+}
+
+/* --------------------------------
+   MEMORY CARD
+-------------------------------- */
+
+.memory-card {
+  margin: 35px auto 25px;
+  max-width: 500px;
+  padding: 20px 25px;
+  background: #ffcce1;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.memory-card p {
+  margin: 0;
+  color: #6b3f50;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.memory-heart {
+  color: #e195ab;
+  font-size: 25px;
+}
+
+/* --------------------------------
+   FINAL LOVE TEXT
+-------------------------------- */
+
+.final-love-text {
+  color: #806b73;
+  font-family: Georgia, serif;
+  font-size: 17px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+/* --------------------------------
+   FLOATING HEARTS
+-------------------------------- */
+
+.floating-hearts {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.floating-hearts span {
+  position: absolute;
+  color: #e195ab;
+  opacity: 0.35;
+  font-size: 20px;
+  animation: floatUp 5s infinite ease-in-out;
+}
+
+.floating-hearts span:nth-child(1) {
+  left: 10%;
+  bottom: 10%;
+  animation-delay: 0s;
+}
+
+.floating-hearts span:nth-child(2) {
+  left: 25%;
+  bottom: 5%;
+  animation-delay: 1s;
+}
+
+.floating-hearts span:nth-child(3) {
+  right: 20%;
+  bottom: 8%;
+  animation-delay: 2s;
+}
+
+.floating-hearts span:nth-child(4) {
+  right: 10%;
+  bottom: 15%;
+  animation-delay: 3s;
+}
+
+.floating-hearts span:nth-child(5) {
+  left: 50%;
+  bottom: 5%;
+  animation-delay: 4s;
+}
+
+/* --------------------------------
+   ANIMATIONS
+-------------------------------- */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes finalReveal {
+  from {
+    opacity: 0;
+    transform: scale(0.94) translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.12);
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.35;
+  }
+
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+
+/* --------------------------------
+   MOBILE
+-------------------------------- */
+
+@media (max-width: 600px) {
+  .final-birthday-section {
+    padding: 30px 15px;
+  }
+
+  .birthday-intro {
+    padding: 45px 20px;
+    border-radius: 25px;
+  }
+
+  .birthday-intro h1 {
+    font-size: 36px;
+  }
+
+  .birthday-final-message {
+    padding: 45px 20px;
+    border-radius: 25px;
+  }
+
+  .birthday-final-message h1 {
+    font-size: 36px;
+  }
+
+  .birthday-message {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .video-heading h2 {
+    font-size: 25px;
+  }
+
+  .video-heading span {
+    font-size: 20px;
+  }
+
+  .birthday-surprise-button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .memory-card {
+    padding: 18px 15px;
+  }
+
+  .memory-card p {
+    font-size: 17px;
+  }
+}

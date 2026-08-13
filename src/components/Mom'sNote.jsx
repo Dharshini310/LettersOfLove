@@ -27,7 +27,7 @@ May your life always be filled with love, success, peace, and countless beautifu
         </p>
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwrRtBiH38pDC9JKy44SQI76qmA75F1EfXyA&s' alt='loading..' className='mom'/>
     </div>
-    <button onClick={handleSubmit} className='MomNote'>One Last Click ❤️</button>
+    <button onClick={handleSubmit} className='MomNote'>One More Little Something 🎁</button>
 
 </div>
   )

@@ -26,7 +26,7 @@ Wishing you endless happiness, success, and beautiful memories in life.
         </p>
         <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXz4xXo6Oxs2LtpsZQLZro-ue8gEJPcS3JrA&s' alt='loading..' className='dad'/>
     </div>
-    <button onClick={handleSubmit} className='DadsNote'>Once More Suprise Loading For You ❤️</button>
+    <button onClick={handleSubmit} className='DadsNote'>Another Surprise Is Loading… ✨</button>
 </div>
   )
 }

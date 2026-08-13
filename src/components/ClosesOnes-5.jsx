@@ -19,7 +19,7 @@ function ClosedOnes5() {
     }, []);
 
     const handleSubmit = () =>{
-        navigate('/closed-ones-2')
+        navigate('/final-birthday-video')
     }
     return (
         <div>
@@ -29,7 +29,7 @@ function ClosedOnes5() {
                 ) : (
                     <div>
                     <div className="video-container1">
-                        <button className='DadNote' onClick={handleSubmit}>A Small Note from Your Dad ❤️</button>
+                        <button className='DadNote' onClick={handleSubmit}>One Last Look… 👀❤️</button>
                         <video
    src={cl_5}
    controls
