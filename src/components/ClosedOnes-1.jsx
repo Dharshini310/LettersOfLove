@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Loader from './Loader';
-import dad from "../assets/chandana_father.mp4"
+import cl_1 from "../assets/closed_ones_1.mp4"
 import "./Dad'sWish.css"
 import { useNavigate } from 'react-router-dom';
 
-function DadsWish() {
+function ClosedOnes1() {
 
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate()
@@ -19,7 +19,7 @@ function DadsWish() {
     }, []);
 
     const handleSubmit = () =>{
-        navigate('/dads-note')
+        navigate('/closed-ones-2')
     }
     return (
         <div>
@@ -28,10 +28,10 @@ function DadsWish() {
                     <Loader />
                 ) : (
                     <div>
-                    <div className="video-container">
+                    <div className="video-container1">
                         <button className='DadNote' onClick={handleSubmit}>A Small Note from Your Dad ❤️</button>
                         <video
-   src={dad}
+   src={cl_1}
    controls
 ></video>
                     </div>
@@ -42,4 +42,4 @@ function DadsWish() {
     )
 }
 
-export default DadsWish
+export default ClosedOnes1

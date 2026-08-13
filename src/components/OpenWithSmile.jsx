@@ -18,7 +18,7 @@ function OpenWithSmile() {
         autoplay
         className="blust-bg"
       />
-       <h1>Hey Vinny...........</h1><br/>
+       <h1>Hey Chandu...........</h1><br/>
        <h3>Someone special has a message for you ❤️</h3><br/><br/>
        <button onClick={handleclick}>Click Here</button>
         <DotLottieReact
