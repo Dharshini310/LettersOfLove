@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 import Loader from './Loader';
-import mom from "../assets/mom's wish.mp4"
+import mom from "../assets/chandana_mother.mp4"
 import "./Mom'sWish.css"
 import { useNavigate } from 'react-router-dom';
 

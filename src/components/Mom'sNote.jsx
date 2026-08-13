@@ -6,7 +6,7 @@ function MomsNote() {
     const navigate = useNavigate()
 
     const handleSubmit = () => {
-        navigate('/sis-note')
+        navigate('/closed-one-1')
     }
   return (
     <div className="note-container2">
